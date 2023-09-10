@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e8ebe4;
+}
+
+.principal img {
+    width: 300px;
+}
+.principal h2{
+    font-size: 40px;
+}
+.principal p{
+    font-size: 18px;
+    text-align: center;
+}
+.contenido {
+  font-size: 20px;
+  font-stretch: expanded;
+  height: 150px;
+  width: 100%;
+  padding: 50px 25px;
+  text-align: center;
+  color: white;
+
+}
+
+.contactos{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 10%;
+  border-right: solid 1px;
+  border-color: #bec1bb;
+
+}
+.contactos .contacto{
+    display: flex;
+    min-height: 70px;
+    padding: 10px;
+    border-bottom: solid 1px;
+    border-color: #bec1bb;
+}
+.contactos .contacto:hover{
+    display: flex;
+    min-height: 65px;
+    padding: 10px;
+    border-bottom: solid 1px;
+    background-color: #d4dcff;
+}
+.contactos .contacto .info{
+    text-align: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.contactos .contacto img{
+    border-radius: 40px;
+    width:70px;
+    height:70px;    
+}
+
+
+.contenido_padre{
+    display: flex;
+}
+
+menu {
+  width: 150px;
+  min-height: 100vh;
+}
+menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction:column
+}
+
+menu li {
+  padding: 1em;
+  list-style: none;
+}
+menu a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+}
+menu a:hover {
+  color: white;
+}
+
+
+.nuevo_chat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 10vh;
+  border-bottom: solid 1px;
+  border-color: #bec1bb;
+
+}
+
+.nuevo_chat button{
+  padding: 10px;
+  background-color: #a491d2;
+  color: white;
+  border-color:  #bec1bb;
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  border: none;
+}
+.contactos nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-color: #bec1bb;
+}
+
+.contactos nav img{
+  border-radius: 50px;
+  width:70px;
+  height:70px;
+  padding: 15px;
+}
+.contactos nav .perfil{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.contactos nav .items{
+  display: flex;
+  align-items: center;
+}
+.contactos nav .items i{
+  padding: 5px;
+}
